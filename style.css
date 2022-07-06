@@ -53,48 +53,122 @@ body {
   display: inline-block;
   text-align: center;
 }
-.donate-header{
+
+.donate-header {
   font-size: 45px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.donate-quote{
+
+.donate-quote {
   font-size: 18px;
   margin-bottom: 20px;
 }
-.donate-amount{
+
+.donate-amount {
   display: flex;
   justify-content: space-around;
 }
-.money{
+
+.money {
   font-size: 30px;
-  color:#707070;
+  color: #707070;
   background: #FAFAFA;
-  width:135px;
+  width: 135px;
   height: 123px;
   margin: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border:1px solid #FF5959;
+  border: 1px solid #FF5959;
 }
 
-.other-amount{
+.other-amount {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #B3B3B3;
 }
-.line{
+
+.line {
   border: 0.5px solid #DADADA;
   margin-bottom: 30px;
 }
-.our-donate{
+
+.our-donate-plan {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.our-donate-header{
+
+.our-donate-plan-header {
   display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.donate-for-sylhet {
+  font-size: 18px;
+  color: #707070;
+  display: flex;
+  justify-content: center;
+}
+
+.donation-plan {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.donation-for-family {
+  width: 360px;
+  height: 250px;
+  color: #707070;
+  background: #FAFAFA;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid #FF5959;
+  justify-content: center;
+  padding: 30px;
+}
+.family-header{
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.family-paragraph{
+  font-size: 16px;
+  font-weight: 400;
+}
+.update-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.get-update{
   display: inline-block;
   text-align: center;
+}
+.update-header{
+  font-size: 45px;
+}
+.update-paragraph{
+  color: #707070;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.update-input{
+  width: 360px;
+  height: 200px;
+  color: #707070;
+  background: #FFF4D6;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
