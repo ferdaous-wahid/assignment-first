@@ -82,4 +82,19 @@ body {
 .other-amount{
   margin-top: 20px;
   margin-bottom: 20px;
+  color: #B3B3B3;
+}
+.line{
+  border: 0.5px solid #DADADA;
+  margin-bottom: 30px;
+}
+.our-donate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-donate-header{
+  display: flex;
+  display: inline-block;
+  text-align: center;
 }
