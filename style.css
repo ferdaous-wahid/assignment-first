@@ -172,3 +172,23 @@ body {
   justify-content: center;
   align-items: center;
 }
+.footer-section{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background-color: #0B0D17;
+}
+
+.footer-header{
+  color:#FF5959;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: 'Lobster', cursive;
+}
+.footer-paragraph{
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
