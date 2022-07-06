@@ -134,35 +134,43 @@ body {
   justify-content: center;
   padding: 30px;
 }
-.family-header{
+
+.family-header {
   font-size: 24px;
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.family-paragraph{
+
+.family-paragraph {
   font-size: 16px;
   font-weight: 400;
 }
-.update-section{
+
+.update-section {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
-.get-update{
+
+.get-update {
   display: inline-block;
   text-align: center;
 }
-.update-header{
+
+.update-header {
   font-size: 45px;
 }
-.update-paragraph{
+
+.update-paragraph {
   color: #707070;
   font-size: 18px;
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.update-input{
+
+.update-input {
   width: 360px;
   height: 200px;
   color: #707070;
@@ -172,23 +180,54 @@ body {
   justify-content: center;
   align-items: center;
 }
-.footer-section{
+
+.footer-section {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   background-color: #0B0D17;
 }
 
-.footer-header{
-  color:#FF5959;
+.footer-header {
+  color: #FF5959;
   font-size: 36px;
   font-weight: 400;
   font-family: 'Lobster', cursive;
 }
-.footer-paragraph{
+
+.footer-paragraph {
   color: white;
   font-size: 14px;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
+}
+
+.donation-news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.everything-about-donation {
+  display: inline-block;
+  text-align: center;
+}
+
+.flood-img {
+  height: 600px;
+  width: 800px;
+}
+
+.flood-header {
+  font-size: 45px;
+  margin: 30px;
+}
+.our-story{
+  font-size: 18px;
+  margin: 20px;
+}
+.about-work{
+  width: 1180px;
+  margin-bottom: 20px;
 }
