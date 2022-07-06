@@ -1,0 +1,85 @@
+/* fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.bg-image {
+  background-image: url(images/donation1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  display: inline-block;
+  text-align: center;
+}
+
+.banner-header {
+  font-size: 65px;
+  color: white;
+  font-weight: 700;
+}
+
+.about-banner {
+  font-size: 18px;
+  color: white;
+  margin: 20px;
+}
+
+.donate-btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: #FF5959;
+  border-radius: 8px;
+}
+
+.donate-container {
+  display: flex;
+  justify-content: center;
+}
+
+.donate {
+  display: inline-block;
+  text-align: center;
+}
+.donate-header{
+  font-size: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.donate-quote{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.donate-amount{
+  display: flex;
+  justify-content: space-around;
+}
+.money{
+  font-size: 30px;
+  color:#707070;
+  background: #FAFAFA;
+  width:135px;
+  height: 123px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:1px solid #FF5959;
+}
+
+.other-amount{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
